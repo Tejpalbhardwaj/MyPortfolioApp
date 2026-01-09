@@ -133,21 +133,21 @@ fun HomeScreen(navController: NavController) {
                 ) {
                     Column() {
                         Text(
-                            text = "🟢Open To Work",
+                            text = "🟢 Open To Work",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Medium,
                             fontFamily = Poppins,
                             color = Color.White
                         )
                         Text(
-                            text = "🟡Available for internships",
+                            text = "🟡 Available for internships",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Medium,
                             fontFamily = Poppins,
                             color = Color.White
                         )
                         Text(
-                            text = "🔵Actively Looking for Android Roles",
+                            text = "🔵 Actively Looking for Android Roles",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Medium,
                             fontFamily = Poppins,
@@ -202,7 +202,7 @@ fun HomeScreen(navController: NavController) {
                 )
 
             }
-            Spacer(modifier = Modifier.height(18.dp))
+            Spacer(modifier = Modifier.height(10.dp))
             Column() {
                 Text(modifier = Modifier.clickable{navController.navigate("contact")},
                     textDecoration = TextDecoration.Underline,

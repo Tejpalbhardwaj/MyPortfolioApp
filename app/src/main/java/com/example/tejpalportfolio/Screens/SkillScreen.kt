@@ -47,14 +47,14 @@ fun SkillsScreen() {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(top = 12.dp).verticalScroll(rememberScrollState())
+                .padding(top = 6.dp , bottom = 6.dp).verticalScroll(rememberScrollState())
         )
         {
 
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp , vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
@@ -107,7 +107,7 @@ fun SkillsScreen() {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp, vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
@@ -171,7 +171,7 @@ fun SkillsScreen() {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp, vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
@@ -195,7 +195,7 @@ fun SkillsScreen() {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp, vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
@@ -221,7 +221,7 @@ fun SkillsScreen() {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp, vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
@@ -285,7 +285,7 @@ fun SkillsScreen() {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(12.dp),
+                    .padding(horizontal = 12.dp, vertical = 8.dp),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = Color(0xFF1B2F2C)
