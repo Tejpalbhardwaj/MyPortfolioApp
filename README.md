@@ -88,7 +88,12 @@ git clone https://github.com/your-username/tejpal-portfolio.git
 
 ## 📸 Screenshots
 
-* Add screenshots of Home, Projects, and Skills screens here
+<p align="center">
+  <img src="screenshots/img_11.png" width="230" />
+  <img src="screenshots/img_22.png" width="230" />
+  <img src="screenshots/img_33.png" width="230" />
+  <img src="screenshots/img_44.png" width="230" />
+</p>
 
 ---
 
